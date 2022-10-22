@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: auto;
+}
+
+header {
+  width: 100vw;
+  height: 117px;
+  background-color: var(--verde-header);
+  box-shadow: 0px 3px 7px rgba(12, 12, 12, 0.767);
+}
+
+header .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  max-width: 1255px;
+  margin: 0 auto;
+
+}
+
+footer {
+  background-color: #2E948A;
+}
+
+nav>ul {
+  list-style-type: none;
+}
+
+nav>ul>li {
+  display: inline;
+}
+
+nav>ul>li>a {
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.logo {
+  text-align: left;
+}
+
+.menu {
+  align-items: right;
+  align-self: flex-end;
+}
+
+.inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao1 {
+  width: 20%;
+}
+
+.titulo {
+  color: crimson;
+}
+
+.btn-white {
+  background-color: white;
+  color: crimson;
+  border: 2px solid crimson;
+  box-shadow: crimson;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.sec-meio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao2 {
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  body {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    max-width: 1180px;
+  }
+}
